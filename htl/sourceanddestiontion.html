@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width+device-width, initial-scale=1.0">
+        <title>document</title>
+    </head>
+    <body>
+        <form action="">
+            <table border="1" cellpadding="10" cellspacing="5" width="50%" align="center">
+                <tr>
+                    <td>
+                        <label for="source">source</label>
+                        <input type="text" name="source" required>
+                    </td>
+                    <td><label for="destination">destination</label>
+                    <input type="text" name="destination" id="destination" required>
+                </td>
+                <td><label for="journeydate">date</label>
+                <input type="date" name="journeydate" id="journeydate"
+                min="2025-9-12" max="2026-3-22"></td>
+                <td>
+                    <label for="seats">seats</label>
+                    <input type="number" name="seats" id="seats" required="1" max="9">
+                </td>
+                <td>
+                    <label for="">bustype</label>
+                    <input type="radio" name="sleeper" value="1">sleeper
+                    <input type="radio" name="ac_sleeper" value="2">ac sleeper
+                    <input type="radio" name="nonas_siting" value="3">non ac siting
+                    <input type="radio" name="ac_siting" value="4">ac siting
+                </td>
+                <td>
+                     <input type="submit" value="submit">
+                     <input type="reset" value="clear all">
+                </td>                 
+                </tr>
+
+            </table>
+        </form>
+    </body>
+
+</html>
